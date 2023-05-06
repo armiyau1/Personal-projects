@@ -1,21 +1,16 @@
 #include <stdio.h>
-int main(){
-    int i;
-    int b=1;
-    int a=0;
-    int c;
-    int num;
-    printf("ENTER A NUMBER ");
-    scanf("%d",&num);
-    for(i=0;i<=num;i++){
-        printf("The fibonacci series of the given number is %d\n",a);
-    
-     c=a+b;
-     a=b;
-     b=c;
+#include <stdlib.h>
+int main()
+{
+int month={1,2,3,4,5,6,};
+int week={1,2,3,4,5,6};
+int day={1,2,3,4,5,6};
 
+printf("enter month\n1 forjan\n 2 for feb\n 3 for march");
+scanf("%d",&month);
+for(int *i=0;i<=month;i++){
+if(month[i]==1){
+    printf("for today you are going ")
 }
-    
-
-return 0;
-}
+}   
+}         
