@@ -16,6 +16,5 @@ const secondDeg=(second/60) * 360;
 secondEl.style.transform = `rotate(${secondDeg}deg)`;
 
 }
-//updateClock();
-setInterval(updateClock,1000)
-console.log("me")
+setInterval(updateClock,1000);
+
